@@ -1,5 +1,5 @@
 {% set name = "smallestai" %}
-{% set version = "3.1.0" %}
+{% set version = "4.0.1" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/smallestai-{{ version }}.tar.gz
-  sha256: 2fc1446a82f19b266015d58c8683694414d832d7f7969d2ea4ecbe6ad8a9473a
+  sha256: ecf736c7fe4fb6566abb0403bc9c6df30a55efd97503ea5a1d1b1912e74e4664
 
 build:
   noarch: python
